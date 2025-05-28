@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* Logout Page Styling */
+.logout-container {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+    margin: 100px auto;
+}
+
+.logout-container h2 {
+    font-size: 22px;
+    color: #e91e63;
+    margin-bottom: 10px;
+}
+
+.logout-container p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.logout-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logout-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.logout-btn.confirm {
+    background: #e91e63;
+    color: white;
+}
+
+.logout-btn.confirm:hover {
+    background: #c2185b;
+}
+
+.logout-btn.cancel {
+    background: #ddd;
+    color: #333;
+}
+
+.logout-btn.cancel:hover {
+    background: #bbb;
+}

@@ -1,0 +1,21 @@
+# Eclipse specific
+*.pydevproject
+.project
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# Maven specific
+target/
+
+# OS specific
+.DS_Store
+Thumbs.db

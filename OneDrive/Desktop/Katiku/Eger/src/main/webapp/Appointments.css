@@ -1,0 +1,172 @@
+/* Body Styling */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+.header {
+    background-color: #0066cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* History Container Styling */
+.history-container {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    width: 90%;
+}
+
+.history-container h3 {
+    color: #333;
+    margin-top: 0;
+    text-align: center;
+}
+
+/* History List Styling */
+.history-list {
+    list-style: none;
+    padding: 0;
+}
+
+.history-list li {
+    border-bottom: 1px solid #eee;
+    padding: 15px 10px;
+}
+
+.history-list li:last-child {
+    border-bottom: none;
+}
+
+/* Appointment Info and Buttons */
+.appointment-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Buttons Container Styling */
+.buttons-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttons-container a,
+.buttons-container form {
+    margin: 0;
+}
+
+.buttons-container form {
+    display: inline;
+}
+
+/* Reschedule and Delete Buttons Styling */
+.btn {
+    padding: 8px 14px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+/* Reschedule Button (Green) */
+.btn-reschedule {
+    background-color: #28a745; /* Bootstrap Green */
+}
+
+.btn-reschedule:hover {
+    background-color: #218838;
+}
+
+/* Delete Button (Red) */
+.btn-delete {
+    background-color: #dc3545; /* Bootstrap Red */
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+
+/* Back Button Styling */
+.back-button-container {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.back-btn {
+    background-color: #0066cc;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.back-btn:hover {
+    background-color: #66b3ff;
+}
+
+.back-btn-link {
+    color: white;
+    text-decoration: none;
+}
+/* Bottom Navigation */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.bottom-nav a {
+    text-align: center;
+    flex: 1;
+    color: #555;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.bottom-nav a i {
+    font-size: 18px;
+    display: block;
+}
+
+.bottom-nav a img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.bottom-nav a.active {
+    color: #e91e63;
+    font-weight: bold;
+}

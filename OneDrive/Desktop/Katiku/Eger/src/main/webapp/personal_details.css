@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Details Container Styles */
+.details-container {
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.details-container label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.details-container input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.details-container button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#edit-btn {
+    background: rgb(0, 0, 255);
+    color: white;
+}
+
+#save-btn {
+    background: #4caf50;
+    color: white;
+}
+
+/* Back Button Styling */
+.back-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.back-btn:hover {
+    background-color: darkblue;
+}

@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+/* Signup Container */
+.signup-container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Welcome Title */
+h1.welcome {
+    color: #007bff;
+    font-size: 22px;
+}
+
+/* Labels */
+label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Username Field */
+#username {
+    border: 1px solid #007bff;
+    background-color: #f1f8ff;
+}
+
+/* Password Field */
+.password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-container input {
+    flex: 1;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+/* Signup Button */
+.signup-btn {
+    width: 100%;
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    background: #0056b3;
+}
+
+/* OR Text */
+.or-text {
+    margin: 15px 0;
+    font-size: 14px;
+    color: #888;
+}
+
+/* Social Signup */
+.social-signup {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.social-btn img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Sign In Text */
+.signin-text {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.signin-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
